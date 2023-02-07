@@ -17,12 +17,13 @@
 let firstName = 'Natasha';
 let middleName = 'Fedorivna';
 let lastName = 'Trach';
-//
-// let res = firstName +' '+ middleName + ' ' + lastName;
-// console.log(res);
-//
-// let res1 = `${firstName} ${middleName} ${lastName}`;
-// console.log(res1);
+
+
+let res = firstName +' '+ middleName + ' ' + lastName;
+console.log(res);
+
+let res1 = `${firstName} ${middleName} ${lastName}`;
+console.log(res1);
 
 
 
@@ -42,6 +43,8 @@ let lastName = 'Trach';
 // Додаткове для тих хто цікавився prompt`oм
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в
 //  консоль
+
+
 
 
 
