@@ -48,10 +48,10 @@
 // let big = BigInt(12345678);
 // console.log(big);
 
-let a = true;
-let b = false;
-console.log(typeof a);
-console.log(typeof b);
+// let a = true;
+// let b = false;
+// console.log(typeof a);
+// console.log(typeof b);
 
 //> < >= <= != == === !==
 
@@ -63,3 +63,38 @@ console.log(typeof b);
 // console.log(10 !== '10');
 // console.log(10 == '10');
 // console.log(10 === '10');
+
+// console.log(typeof (22 + ''));
+//
+// console.log(100+200+'hello');
+//
+// console.log('hello' + 100 +200);
+//
+// console.log(typeof  + '12');
+// console.log(+'12fghjuyhgtfrdcvb');
+//
+// console.log(parseInt('12ygfgh'));
+
+// let obj = {
+//     name: 'Vasya',
+//     age: 33
+// }
+// console.log(obj);
+//
+// let arr = [1,2,3,4,obj,];
+// console.log(arr);
+
+
+let undef = undefined;
+console.log(undef);
+console.log(typeof undef);
+
+let nun = NaN;
+console.log(nun);
+console.log(typeof nun);
+
+let nul = null;
+console.log(nul);
+console.log(typeof nul);
+
+
