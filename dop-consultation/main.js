@@ -44,14 +44,14 @@
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
 //     Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 
-// function foo7(text,count) {
-//     document.write(`<ul>`);
-//     for (let i = 0; i < count; i++){
-//         document.write(`<div>${text}</div>`);
-//     }
-//     document.write(`</div>`)
-// }
-// foo7 ('text',4);
+function foo7(text,count) {
+    document.write(`<ul>`);
+    for (let i = 0; i < count; i++){
+        document.write(`<div>${text}</div>`);
+    }
+    document.write(`</ul>`)
+}
+foo7 ('text',4);
 
 
 
